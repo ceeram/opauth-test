@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9843fa3cd9564493123279c1d8af9040",
+    "hash": "e9022ae5c7ce8e4dd90a7e5c7ccaff56",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -131,12 +131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "d910e02df686a6121ad6e21008d2f5a63be26e12"
+                "reference": "17c4947bd18cd41a9912d09f75bd7a83f148dd0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/d910e02df686a6121ad6e21008d2f5a63be26e12",
-                "reference": "d910e02df686a6121ad6e21008d2f5a63be26e12",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/17c4947bd18cd41a9912d09f75bd7a83f148dd0b",
+                "reference": "17c4947bd18cd41a9912d09f75bd7a83f148dd0b",
                 "shasum": ""
             },
             "require": {
@@ -188,7 +188,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-11-25 05:35:27"
+            "time": "2014-11-25 13:38:41"
         },
         {
             "name": "cakephp/debug_kit",
@@ -524,54 +524,6 @@
             "time": "2014-04-07 16:50:25"
         },
         {
-            "name": "opauth/google",
-            "version": "1.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/opauth/google.git",
-                "reference": "5605bf80b47213a620cc0d2dfb0e8212a316ceba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/opauth/google/zipball/5605bf80b47213a620cc0d2dfb0e8212a316ceba",
-                "reference": "5605bf80b47213a620cc0d2dfb0e8212a316ceba",
-                "shasum": ""
-            },
-            "require": {
-                "opauth/opauth": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Opauth\\Google\\Strategy\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "U-Zyn Chua",
-                    "email": "chua@uzyn.com",
-                    "homepage": "http://uzyn.com"
-                },
-                {
-                    "name": "Ceeram",
-                    "email": "c33ram@gmail.com"
-                }
-            ],
-            "description": "Google strategy for Opauth",
-            "homepage": "http://opauth.org",
-            "keywords": [
-                "Authentication",
-                "auth",
-                "google"
-            ],
-            "time": "2014-04-07 16:49:05"
-        },
-        {
             "name": "opauth/opauth",
             "version": "1.0.0-alpha.1",
             "source": {
@@ -802,8 +754,7 @@
         "opauth/opauth": 20,
         "opauth/facebook": 20,
         "opauth/github": 20,
-        "opauth/twitter": 20,
-        "opauth/google": 20
+        "opauth/twitter": 20
     },
     "prefer-stable": true,
     "platform": {
